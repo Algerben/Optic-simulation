@@ -1,0 +1,40 @@
+{
+    "tasks": [
+        {
+            "type": "process",
+            "label": "build debug",
+            "command": "mingw32-make",
+            "args": [
+                "COMPILEARGS=-Wall -g -O0 -ftime-report",
+                "APPNAME=\"template debug\""
+            ],
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "No optimization"
+        },
+        {
+            "type": "process",
+            "label": "build release",
+            "command": "mingw32-make",
+            "args": [
+                "COMPILEARGS=-Wall -s -O2 -ftime-report -freciprocal-math",
+                "APPNAME=\"template release\"",
+                "EXLINKFLAGS=-mwindows"
+            ],
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "Standard optimization"
+        },
+    ],
+    "version": "2.0.0"
+}
