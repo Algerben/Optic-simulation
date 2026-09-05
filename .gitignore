@@ -1,6 +1,7 @@
 include
 lib
 bin
+vendor
 .idea
 .DS_Store
 .exe

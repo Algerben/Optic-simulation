@@ -4,13 +4,13 @@ This is a small project that I made to help me visualize and play with how light
 Features are currently limited, I was more concerned with getting this up and running as quickly as possible, but I do plan on refactoring everything to make it more user friendly.
 
 # Controls
-Shift + right click = place a new prism
-right click = aim light beam
-left click = position light beam origin
-right click on prism = rotate prism
-left click on prism = position prism
-delete on prism = remove prism
-scroll on prism = change size of prism
+Shift + right click = place a new prism\
+right click = aim light beam\
+left click = position light beam origin\
+right click on prism = rotate prism\
+left click on prism = position prism\
+delete on prism = remove prism\
+scroll on prism = change size of prism\
 control + scroll on prism = change refractive index of prism
 
 note: refractive index is unbounded, so wierd things may happen if it goes negative.
